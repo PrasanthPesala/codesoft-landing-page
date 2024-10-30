@@ -1,0 +1,141 @@
+#navigation img{
+     border-radius: 100px;
+     height: 50px;
+     width: 50px;
+}
+#navigation{
+    display: flex;
+}
+ 
+#navigation ul li{
+    color: white; 
+}
+#navigation ul{
+    display: flex;
+    list-style: none;
+    gap: 100px;
+    padding-left: 100px;
+} 
+
+#navigation ul li:hover{
+    color: black;
+    border-radius: 5px;
+     text-decoration: underline;
+     box-shadow: 3px 3px 7px 7px white inset;
+     cursor: pointer;
+     font-weight: bolder;
+}
+ 
+body{
+    background-image: url("bg1.jpg");
+    background-repeat: no-repeat;
+}
+#HOME h1{
+    color: rgb(56, 188, 188);
+    margin: 5px 640px;
+    border: 3px solid aqua;
+    width: 210px;
+    box-shadow: 2px 2px 15px 10px cyan;
+    font-weight: bolder;
+    text-shadow: 2px 2px blue;
+}
+#HOME p{
+    color: aliceblue;
+    text-align: center;
+    border: 2px solid cyan;
+    box-shadow: 2px 2px 5px 5px cyan;
+    background-color: rgb(53, 60, 62);
+}
+#services h1 {
+    color: rgb(127, 249, 255);
+    text-decoration: underline;
+    margin-left: 20px;
+    font-size: 2.5em;
+    text-shadow: 3px 3px purple;
+}
+#services ul{
+    display: flex;
+     margin-left: 30px;
+    gap: 80px;
+}
+#services ul li{
+    color: white;
+    font-weight: bolder;
+    height: 20px;
+    
+  border-radius: 5px;
+  text-decoration: overline;
+  border: 3px solid cyan;
+  box-shadow: 3px 3px cyan;
+    
+}
+ 
+#services ul li:hover{ 
+  background-color: black;
+  cursor: pointer;
+}
+#services h2{
+    color: white;
+    margin-left: 20px;
+    
+}
+#services h2:hover{
+    cursor: pointer;
+}
+#services details summary h2{
+    border: 3px solid blue;
+    box-shadow: 2px 2px 5px 5px cyan inset;
+    color: cyan;
+    border-radius: 10px;
+    text-shadow: -2px -2px blue;
+    padding-left: 100px;
+    width: 300px;
+    
+}
+#services input{
+    float: right;
+    margin-right: 450px;
+    height: 30px;
+    background-color: rgba(52,152,219,0.5);
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    box-shadow: 5px 5px blue;
+}
+#services input::placeholder{
+    color: white;
+    font-size: 1em;
+}
+#services{
+    border: 3px solid blue;
+    box-shadow: 5px 5px 10px 10px cyan inset;
+}
+#contus .img{
+    display: flex;
+    justify-content: space-around;
+}
+#contus .img img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    
+} 
+#contus .img img:hover{
+    transform: scale(0.8);
+    box-shadow: 2px 2px 10px 10px cyan inset,2px 2px 10px 10px cyan ;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover
+} 
+#contus h1{
+    color:rgb(127, 249, 255) ;
+    margin-left: 20px;
+    text-decoration: underline;
+    text-shadow: 2.5px 2.5px rgb(179, 6, 232);
+}
+#contus{
+    background: url("starsbg.jpg");
+    box-shadow: 2px 2px 5px 5px skyblue inset;
+    border-radius: 10px;
+    height: 200px;
+}
